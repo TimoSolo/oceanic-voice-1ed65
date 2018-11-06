@@ -3,21 +3,21 @@ label: Home
 hide_body: true
 is_partial: false
 fields:
-  - type: text
-    name: title
-    label: Page Title
-    config:
-      required: true
-  - type: blocks
-    name: sections
-    label: Sections
-    description: Home Sections
-  - type: text
-    name: layout
-    label: Layout
-    hidden: true
-    default: home
-    config:
-      required: true
+- type: text
+  name: title
+  label: Page Title
+  config:
+    required: true
+- type: blocks
+  name: sections
+  label: Sections
+  description: Home Sections
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: home
+  config:
+    required: true
 pages:
-  - index.md
+- index.md
